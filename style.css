@@ -79,10 +79,20 @@
 /* My plan section styles */
 
 .my-plan-section{
-    padding: 0 210px 0 230px;
+    padding: 0 180px 0 200px;
+
+}
+.plan-section-content{
+    height: 360px;
+}
+.plan-details{
+    border: 1px solid rgb(91, 10, 196);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    text-align: center;
+    padding: 22px; 
 }
 .plan-section-title{
-    font-size: 28px;
+    font-size: 36px;
     margin-bottom: 40px;
 }
 .plan-section-title{
@@ -90,7 +100,7 @@
 }
 .plan-section-content{
     display: flex;
-    gap: 70px;
+    gap: 24px;
     justify-content: space-between;
 }
 .plan-section-content img{
@@ -99,9 +109,45 @@
     margin-bottom: 15px;
 }
 .plan-section-content h2{
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 8px;
 }
 .plan-section-content p{
+    color: #706d6d;
+    font-size: 18px;
     margin-bottom: 130px;
+}
+
+/* Positive section */
+.positive-section{
+    margin-top: 130px;
+    padding: 0 180px 0 200px;
+}
+.positive-section-content {
+	background: url(./images/watch.png), linear-gradient(90deg, #071826 0%, rgba(0, 95, 172, 0) 100%);
+	background-size: cover;
+	background-blend-mode: overlay;
+	padding: 60px 617px 0 64px;
+	border-radius: 8px;
+	margin-bottom: 130px;
+	height: 300px;
+	width: 1140px;
+	box-sizing: border-box;
+}
+.positive-section-content p{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    background: white;
+    padding: 16px 26px;
+    border: none;
+    color: rgb(73, 11, 189);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
 }
