@@ -120,6 +120,40 @@
     margin-bottom: 130px;
 }
 
+/* upcoming-section */
+
+.upcoming-section{
+    padding: 0 180px 0 200px;
+    margin-top: 130px;
+}
+.upcoming-title {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-shadow: 5px 9px 6px rgba(0,0,0,0.4);
+}
+.upcoming-plan{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.plan-section h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.plan-section{
+    background: indigo;
+    color: rgb(236, 225, 225);
+    font-size: 18px;
+    padding: 22px;
+    border-radius: 20px;
+}
+.plan-section:hover{
+    background: #FCCA53;
+    color: black;
+    transition: all .6s;
+}
+
 /* Positive section */
 .positive-section{
     margin-top: 130px;
