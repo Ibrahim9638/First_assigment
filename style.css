@@ -48,6 +48,7 @@
     gap: 30px;
     padding-left: 206px;
     padding-right: 200px;
+    margin-bottom: 128px;
 }
 .failures-image{
     width: 100%;
@@ -73,4 +74,34 @@
 .failures-check-content p{
     color: #706d6d;
     line-height: 25px;
+}
+
+/* My plan section styles */
+
+.my-plan-section{
+    padding: 0 210px 0 230px;
+}
+.plan-section-title{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.plan-section-title{
+    text-align: center;
+}
+.plan-section-content{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+.plan-section-content img{
+    width: 88px;
+    height: 88px;
+    margin-bottom: 15px;
+}
+.plan-section-content h2{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.plan-section-content p{
+    margin-bottom: 130px;
 }
