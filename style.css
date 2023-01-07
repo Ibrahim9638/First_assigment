@@ -31,10 +31,12 @@
 	margin-bottom: 40px;
 }
 .btn{
-    color: #3511da;
-    background: #FFFFFF;
-    font-size: 18px;
-    padding: 15px;
+    background: white;
+    padding: 16px 26px;
+    border: none;
+    color: rgb(73, 11, 189);
+    font-size: 20px;
+    font-weight: 700;
     border-radius: 5px;
     display: block;
     float: right;
@@ -131,7 +133,6 @@
 	border-radius: 8px;
 	margin-bottom: 130px;
 	height: 300px;
-	width: 1140px;
 	box-sizing: border-box;
 }
 .positive-section-content p{
@@ -147,6 +148,61 @@
     padding: 16px 26px;
     border: none;
     color: rgb(73, 11, 189);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Footer Section styles */
+
+.footer-contact-section{
+    width: 1600px;
+    height: 570px;
+    background: black;
+}
+.contact-section{
+    display: flex;
+    gap: 330px;
+    color: white;
+    padding: 130px 180px 0 200px;
+}
+.contact-section-features h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-bottom: 18px;
+}
+.contact-section-features p{
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.contact-icon-section{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.contact-section-sub p {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.contact-section-sub input[type="email"] {
+	border: 1px solid #ffffff;
+	outline: none;
+	margin: 25px 0 16px;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+
+}
+
+.btn-3{
+    background: indigo;
+    padding: 16px 22px;
+    border: none;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
