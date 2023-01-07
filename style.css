@@ -1,0 +1,76 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header section styles */
+.header{
+    max-width: 1600px;
+    height: 806px;
+    background-image: url('./images/banner/banner3.png');
+    background-size: cover;
+    margin-bottom: 130px;
+}
+.header-content{
+    padding: 200px 125px 166px 840px;
+}
+.header-title{
+    font-size: 51px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: right;
+    line-height: 60px;
+    margin-bottom: 20px;
+
+}
+.header-description {
+	color: #fefefe;
+	font-size: 15px;
+	text-align: right;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+.btn{
+    color: #3511da;
+    background: #FFFFFF;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    float: right;
+
+}
+
+/* Failures section styles */
+.failures-section{
+    display: flex;
+    align-content: space-between;
+    gap: 30px;
+    padding-left: 206px;
+    padding-right: 200px;
+}
+.failures-image{
+    width: 100%;
+}
+.failures-content{
+    padding-top: 300px;
+}
+.failures-content-title{
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+.failures-content-description{
+    color: #706d6d;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.failures-check-content img{
+    width: 5%;
+    
+}
+.failures-check-content p{
+    color: #706d6d;
+    line-height: 25px;
+}
